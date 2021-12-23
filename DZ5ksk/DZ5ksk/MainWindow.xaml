@@ -1,0 +1,26 @@
+﻿<Window x:Class="DZ5ksk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DZ5ksk"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tn" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Margin="99,251,0,0" TextChanged="tn_TextChanged" />
+        <Button x:Name="bsquare" Content="площадь" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="23,298,0,0" Click="bsquare_Click"/>
+        <Button x:Name="bvolume" Content="объем" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="159,298,0,0" Click="bvolume_Click"/>
+        <Button x:Name="binfo" Content="информация" HorizontalAlignment="Left" VerticalAlignment="Top" Width="165" Margin="452,82,0,0" Click="binfo_Click" Height="32"/>
+        <Label x:Name="tinfo" Content="" HorizontalAlignment="Left" Margin="23,334,0,0" VerticalAlignment="Top" Width="282"/>
+        <TextBox x:Name="tnewroomS" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Margin="46,49,0,0" RenderTransformOrigin="1.57,0.657" TextChanged="tnewroomS_TextChanged"/>
+        <TextBox x:Name="tnewroomV" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Margin="84,49,0,0" TextChanged="tnewroomV_TextChanged"/>
+        <TextBox x:Name="tnewroomW" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Margin="122,49,0,0" TextChanged="tnewroomW_TextChanged"/>
+        <Button x:Name="Badd" Content="добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="61,94,0,0" Click="Button_Click"/>
+        <TextBox x:Name="tend" HorizontalAlignment="Left" Height="246" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" Margin="407,131,0,0" />
+        <Label Content="введите номер комнаты:" HorizontalAlignment="Left" Margin="46,205,0,173" Width="200"/>
+        <Label Content="добавить новую комнату метраж,высота,количество окон:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,18,0,0" Width="333"/>
+        <Button Content="очистить данные" HorizontalAlignment="Left" Margin="672,357,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_1"/>
+        <Label x:Name="tadd" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,131,0,0" Width="151"/>
+
+    </Grid>
+</Window>
